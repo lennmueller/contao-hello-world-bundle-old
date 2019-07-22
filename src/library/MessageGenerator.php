@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace lennmueller\ContaoHelloWorldBundle\Library;
+namespace lennmueller\ContaoHelloWorldBundle\library;
 
 /**
  * @throws InvalidArgumentException
