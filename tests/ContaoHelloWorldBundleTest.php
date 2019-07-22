@@ -2,7 +2,7 @@
 
 namespace lennmueller\ContaoHelloWorlddBundle\Tests;
 
-use lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
+use lennmueller\ContaoHelloWorldBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoHelloWorldBundleTest extends TestCase
