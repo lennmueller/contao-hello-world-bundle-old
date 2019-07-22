@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\ContaoHelloWorldBundle\DependencyInjection;
+namespace lennmueller\ContaoHelloWorldBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -1,12 +1,12 @@
 <?php
 
-namespace Acme\ContaoHelloWorldBundle\ContaoManager;
+namespace lennmueller\ContaoHelloWorldBundle\ContaoManager;
 
 use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Acme\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
+use lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
 
 class Plugin implements BundlePluginInterface
 {

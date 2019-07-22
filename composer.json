@@ -1,12 +1,12 @@
 {
-    "name": "acme/contao-hello-world-bundle",
+    "name": "lennmueller/contao-hello-world-bundle",
     "type": "contao-bundle",
     "description": "Hello World extension for Contao Open Source CMS",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
-            "name": "Acme",
-            "homepage": "https://github.com/acme"
+            "name": "lennmueller",
+            "homepage": "https://github.com/lennmueller"
         }
     ],
     "require": {
@@ -29,20 +29,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Acme\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "lennmueller\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Acme\\ContaoHelloWorldBundle\\": "src/"
+            "lennmueller\\ContaoHelloWorldBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Acme\\ContaoHelloWorldBundle\\Tests\\": "tests/"
+            "lennmueller\\ContaoHelloWorldBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/acme/contao-hello-world-bundle/issues",
-        "source": "https://github.com/acme/contao-hello-world-bundle"
+        "issues": "https://github.com/lennmueller/contao-hello-world-bundle/issues",
+        "source": "https://github.com/lennmueller/contao-hello-world-bundle"
     }
 }

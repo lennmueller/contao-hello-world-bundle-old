@@ -1,8 +1,8 @@
 <?php
 
-namespace Acme\ContaoHelloWorlddBundle\Tests;
+namespace lennmueller\ContaoHelloWorlddBundle\Tests;
 
-use Acme\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
+use lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoHelloWorldBundleTest extends TestCase
@@ -11,6 +11,6 @@ class ContaoHelloWorldBundleTest extends TestCase
     {
         $bundle = new ContaoHelloWorldBundle();
 
-        $this->assertInstanceOf('Acme\ContaoHelloWorldBundle\ContaoHelloWorldBundle', $bundle);
+        $this->assertInstanceOf('lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle', $bundle);
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\ContaoHelloWorldBundle;
+namespace lennmueller\ContaoHelloWorldBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
