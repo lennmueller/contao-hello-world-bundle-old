@@ -11,6 +11,6 @@ class ContaoHelloWorldBundleTest extends TestCase
     {
         $bundle = new ContaoHelloWorldBundle();
 
-        $this->assertInstanceOf('lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle', $bundle);
+        $this->assertInstanceOf('lennmueller\contao-hello-world-bundle', $bundle);
     }
 }
