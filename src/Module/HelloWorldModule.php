@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\ContaoHelloWorldBundle\Module;
+namespace lennmueller\ContaoHelloWorldBundle\Module;
 
 class HelloWorldModule extends \Module
 {
@@ -36,6 +36,10 @@ class HelloWorldModule extends \Module
      */
     protected function compile()
     {
-        $this->Template->message = 'Hello World';
+        $messageGenerator = \Contao\System::getContainer()->get('lennmueller.contao_hello_world_bundle.message_generator');
+
+        $message = $messageGenerator->sayHelloTo('World');
+
+        $this->Template->message = $message;
     }
 }
