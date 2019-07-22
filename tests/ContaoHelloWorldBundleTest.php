@@ -2,7 +2,7 @@
 
 namespace lennmueller\ContaoHelloWorlddBundle\Tests;
 
-use lennmueller\ContaoHelloWorldBundle;
+use lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoHelloWorldBundleTest extends TestCase
@@ -11,6 +11,6 @@ class ContaoHelloWorldBundleTest extends TestCase
     {
         $bundle = new ContaoHelloWorldBundle();
 
-        $this->assertInstanceOf('lennmueller\contao-hello-world-bundle', $bundle);
+        $this->assertInstanceOf('lennmueller\ContaoHelloWorldBundle\ContaoHelloWorldBundle', $bundle);
     }
 }
